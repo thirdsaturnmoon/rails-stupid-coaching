@@ -1,0 +1,25 @@
+// PSEUDOCODE:
+// incorporate styles related to the question controller
+// linked to the application.css
+
+a {
+   color: grey;
+   &:hover {
+     color: purple;
+   }
+ }
+
+ #orange {
+  background: #F7BA90;
+  color: grey;
+  font-weight: bold;
+  font-family: roboto;
+}
+
+.banner {
+  background: grey;
+  h1 {
+    font-size: 50px;
+    font-family: roboto;
+  }
+}
